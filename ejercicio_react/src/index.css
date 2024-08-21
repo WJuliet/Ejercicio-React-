@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ebeff3; 
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007BFF; 
+}
+
+p {
+    text-align: center;
+    color: #212529; 
+}
+
+hr {
+    margin: 20px auto;
+    width: 80%;
+    border: 1px solid #007BFF; 
+}
+
+/* Estilos para el SelectList */
+.label-select {
+    display: block;
+    color: #212529; 
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+select {
+    width: 100%;
+    color: #495057; 
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+    border: 1px solid #007BFF; 
+    border-radius: 4px;
+    background-color: #FFFFFF; 
+}
+  
