@@ -14,6 +14,7 @@ body {
 }
 
 
+
 /* Contenedor del formulario */
 .container {
     background: rgba(255, 255, 255, 0.9); 
@@ -35,10 +36,11 @@ body {
 
 /* Estilo del título */
 h1 {
-    font-size: 28px;
+    font-size: 30px;
     margin: 0 0 10px 0; 
     color: #007BFF;
     text-align: center;
+    text-shadow: 4px 4px 4px rgba(242, 250, 249, 0.7);
 }
 
 /* Estilo del subtitulo */
@@ -46,6 +48,7 @@ h2 {
     margin: 0 0 10px 0;
     color: #007BFF;
     text-align: center;
+    font-size: 24px;
 }
 
 /* Estilo de la línea horizontal */
@@ -101,14 +104,6 @@ select {
     max-height: 200px;
 }
 
-
-.info-container label {
-    font-weight: bold; 
-    display: block; 
-    margin-bottom: 10px;
-    font-size: 18px;
-    text-align: center;
-}
 
 .info-paragraph strong {
     font-weight: bold; 

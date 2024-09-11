@@ -37,15 +37,15 @@ export const Selects =()=>{
         />
         {/* // Imprimir info del municipio */}
 
-        <div className="info-container">
-  <label htmlFor="info">Información Sobre Ciudades y Municipios</label>
-  <div className="info-paragraph">
-    <p><strong>ID:</strong> {data?.id || "No disponible"}</p>
-    <p><strong>Descripción:</strong> {data?.description || "No disponible"}</p>
-    <p><strong>Superficie:</strong> {data?.surface || "No disponible"}</p>
-    <p><strong>Población:</strong> {data?.population || "No disponible"}</p>
-  </div>
-</div>
+         <h2>Información General</h2>
+           <div className="info-container">
+             <div className="info-paragraph">
+               <p><strong>ID:</strong> {data?.id || "No disponible"}</p>
+               <p><strong>Descripción:</strong> {data?.description || "No disponible"}</p>
+               <p><strong>Superficie:</strong> {data?.surface || "No disponible"}</p>
+               <p><strong>Población:</strong> {data?.population || "No disponible"}</p>
+             </div>
+           </div>
       </div>
     );
 };
